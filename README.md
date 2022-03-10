@@ -39,7 +39,10 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 - [Usuarios GitHub ID N5A](https://docs.google.com/spreadsheets/d/17T3JJ7tKyLoUujzeiCcyDMvcS0ac7TVNhKKHmTU-udg/edit?usp=sharing)
 
 ## Parte 1: Backend.Net Core WebApi
-- Clase 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md), [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md),[Comandos Base para crear y copilar un proyecto](/Clases/Clase_01-Intro/1.3-ComandosNetCore.md) ([Otras lecturas](https://cheerful-nation-1ca.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
+- Clase 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
+          - [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md)
+          - [Comandos Base para crear y copilar un proyecto](/Clases/Clase_01-Intro/1.3-ComandosNetCore.md)
+          - ([Otras lecturas](https://cheerful-nation-1ca.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
 - Clase 2 - [WebApi](https://cheerful-nation-1ca.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
 - Clase 3 - [Inyección de dependencias](https://cheerful-nation-1ca.notion.site/Inyecci-n-de-dependencia-084456a1937f40f4b6e767711c7ca1c9)
 - Clase 4 - [Testing](https://cheerful-nation-1ca.notion.site/Unit-test-4554cc7a49bd4fe4a06c509de80ac77f)
