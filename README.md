@@ -31,12 +31,12 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
  - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Extension que sirve para mostrar y codificar de a pares
  - [C# Estensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) Extension para crear archivos mas facil
 
-### Cuentas GitLab
+### Cuentas Github
 
 Es necesario para realizar el obligatorio que ingresen su usuario de github en el excel que corresponda.
 
 - [Usuarios GitHub AN M5A](https://docs.google.com/spreadsheets/d/1BH2b0ZgVYWWmOZUwvV3nLnfOUZYWlFAuFxSHf-Qlc9A/edit?usp=sharing)
-- [Usuarios GitHub ID N5A](https://docs.google.com/spreadsheets/d/17T3JJ7tKyLoUujzeiCcyDMvcS0ac7TVNhKKHmTU-udg/edit?usp=sharing)
+- [Usuarios GitHub AN N5A](https://docs.google.com/spreadsheets/d/17T3JJ7tKyLoUujzeiCcyDMvcS0ac7TVNhKKHmTU-udg/edit?usp=sharing)
 
 ## Parte 1: Backend.Net Core WebApi
 - Clase 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
@@ -58,9 +58,6 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 - Clase 10 - [SPA - Introducción a Angular](/Clases/Clase_10-SPA&Angular/Angular_y_las_SPAs.md)
 
 - [Resumen de Angular](/Clases/Angular.md)
-
-## Guías
-- [Comandos Base para crear y copilar un proyecto](/Clases/Clase_01-Intro/Guias/ComandosNetCore.md)
 
 
 ## Aclaración
