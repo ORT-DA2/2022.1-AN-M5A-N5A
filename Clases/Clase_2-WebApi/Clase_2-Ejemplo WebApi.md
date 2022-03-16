@@ -2,8 +2,7 @@
 Ejemplo de como crear su primer WebApi, se deja una imagen de la arquitectura que construiremos.
 
 
-[Postman](https://www.postman.com/)
-![ArquitecturaWebApi.png](../ArquitecturaWebApi.png)
+![ArquitecturaWebApi.png](ArquitecturaWebApi.png)
 
 ## Cheat sheet (Lista de comandos desde la consola)
 
