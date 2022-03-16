@@ -63,4 +63,4 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 
 
 ## Aclaración
-- El código que se encuentra está escrito en un ámbito de clase, es incompleto y seguramente con errores. No se debe tomar como ejemplo final.
+- El código que se encuentra está escrito en un ámbito de clase, es incompleto y seguramente con errores. No se debe tomar como implementación final.
