@@ -10,7 +10,7 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 ## Docentes
 
 - Nicolás Fierro [fierrodilorenzo@gmail.com](mailto:fierrodilorenzo@gmail.com)
-- Alexander Wieler (solo M5A)
+- Alexander Wieler [alexander@jinkanna.com](alexander@jinkanna.com) (solo M5A)
 - Nicolás Blanco [1nico.blanco@gmail.com](mailto:1nico.blanco@gmail.com)
 
 ## Herramientas necesarias para este curso
