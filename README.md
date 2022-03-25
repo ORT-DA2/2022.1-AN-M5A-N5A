@@ -17,7 +17,7 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 
 - [.NET Core](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [SQL Server](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads?rtc=1) / [SQL Server para MAC](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash)
+- [SQL Server](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads?rtc=1) / [SQL Server para MAC](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash) /  [SQL Server para MAC-M1](https://medium.com/geekculture/how-to-install-sql-server-in-mac-m1-41121e110214)
 - [Postman](https://www.postman.com/)
 - [Angular](https://angular.io/)
 - [Node](https://nodejs.org/es/)
