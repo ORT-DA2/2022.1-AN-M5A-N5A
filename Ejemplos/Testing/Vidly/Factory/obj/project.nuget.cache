@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zPzq9eF1PBAuuRUXeGi+Tb7VDC9E02O/5nDRSFkjV2q8LwYZoedMKshYqMZ95oD3xweV5MXK1BTjS5YoOz971g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lapnyc\\Desktop\\Docencia\\DA2\\repo github\\Ejemplos\\Testing\\Vidly\\Factory\\Factory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lapnyc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
