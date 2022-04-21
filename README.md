@@ -39,27 +39,24 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 - [Usuarios GitHub AN N5A](https://docs.google.com/spreadsheets/d/17T3JJ7tKyLoUujzeiCcyDMvcS0ac7TVNhKKHmTU-udg/edit?usp=sharing)
 
 ## Parte 1: Backend.Net Core WebApi
-- Clase 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
+- Tema 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
           // [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md)
           // [Comandos Base para crear y copilar un proyecto](/Clases/Clase_01-Intro/1.3-ComandosNetCore.md)
           // ([Otras lecturas](https://cheerful-nation-1ca.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
-- Clase 2 - [WebApi](https://cheerful-nation-1ca.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
+- Tema 2 - [WebApi](https://cheerful-nation-1ca.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
           // [Ejemplo](/Clases/Clase_2-WebApi/Clase_2-Ejemplo-WebApi.md)
-- Clase 3 - [Inyección de dependencias](https://cheerful-nation-1ca.notion.site/Inyecci-n-de-dependencia-084456a1937f40f4b6e767711c7ca1c9)
-- Clase 4 - [Testing](https://cheerful-nation-1ca.notion.site/Unit-test-4554cc7a49bd4fe4a06c509de80ac77f)
-- Clase 5 - [Entity FrameWork](https://cheerful-nation-1ca.notion.site/EF-CORE-c9c7991c5c9f414f8aa6f2abb2d6a83f)
-- Clase 6 - [Filters](https://cheerful-nation-1ca.notion.site/Filtros-11ba7df748cd4240aba28ded55e55076)
+- Tema 3 - [Inyección de dependencias](https://cheerful-nation-1ca.notion.site/Inyecci-n-de-dependencia-084456a1937f40f4b6e767711c7ca1c9)
+- Tema 4 - [Testing](https://cheerful-nation-1ca.notion.site/Unit-test-4554cc7a49bd4fe4a06c509de80ac77f)
+- Tema 5 - [Entity FrameWork](https://cheerful-nation-1ca.notion.site/EF-CORE-c9c7991c5c9f414f8aa6f2abb2d6a83f)
+- Tema 6 - [Filters](https://cheerful-nation-1ca.notion.site/Filtros-11ba7df748cd4240aba28ded55e55076)
           // [Resumen Filters](/Clases/Clase_6-Filters/Filters.md)
 
-## Parte 1 y 1/2:  
-- Clase 7 - Ejemplos de filters + dudas obligatorio
-- Clase 8 - Primera prueba tecnología + Clase de consulta
+## Parte 2.1:  
+- Tema 7 - [Reflection](/Clases/Clase_9-Reflection/Reflection.md)
 
-## Parte 2: FrontEnd - Angular y Reflection
-- Clase 9 - [Reflection](/Clases/Clase_9-Reflection/Reflection.md)
-- Clase 10 - [SPA - Introducción a Angular](/Clases/Clase_10-SPA&Angular/Angular_y_las_SPAs.md)
-
-- [Resumen de Angular](/Clases/Angular.md)
+## Parte 2: FrontEnd - Angular 
+- Tema 8 - [SPA - Introducción a Angular](/Clases/Clase_10-SPA&Angular/Angular_y_las_SPAs.md)
+          // [Resumen de Angular](/Clases/Angular.md)
 
 
 ## Aclaración
