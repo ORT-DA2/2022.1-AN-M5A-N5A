@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <Reference Include="Contract">
-      <HintPath>..\app\Contract\bin\Debug\netcoreapp3.1\Contract.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\source\repos\applogger\bin\Debug\netcoreapp3.1\Contract.dll</HintPath>
     </Reference>
   </ItemGroup>
 
