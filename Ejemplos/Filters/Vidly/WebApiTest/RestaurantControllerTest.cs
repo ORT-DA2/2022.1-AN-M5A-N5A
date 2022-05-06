@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using BusinessLogicInterface;
 using Domain;
@@ -48,5 +49,16 @@ namespace WebApiTest
             //Assert.AreEqual(restaurantsExpected,restaurantResult);
             CollectionAssert.AreEqual(restaurantsExpected, (System.Collections.ICollection)restaurantResult, new BasicComparer());
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException),"Algun texto multiloco")]
+        public void ExcpetionTest()
+        {
+            var mock = new Mock<IRestaurantLogic>(MockBehavior.Strict);
+            mock.Setup(r => r.DarExcpetion()).Throws(new ArgumentException("Algun texto multiloco"));
+            var controller = new RestaurantController(mock.Object);
+            controller.GetConException();
+        }
+
     }
 }

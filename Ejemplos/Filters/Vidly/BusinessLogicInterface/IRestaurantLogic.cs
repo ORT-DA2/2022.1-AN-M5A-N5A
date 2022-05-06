@@ -11,5 +11,7 @@ namespace BusinessLogicInterface
         Restaurant Add(Restaurant restaurant);
         void Update(int restaurantId, Restaurant restaurant);
         void Delete(int restaurantId);
+
+        void DarExcpetion();
     }
 }

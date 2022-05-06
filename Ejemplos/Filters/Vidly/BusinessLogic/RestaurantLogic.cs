@@ -78,5 +78,11 @@ namespace BusinessLogic
             restaurant.Id = restaurantId;
             restaurantSaved = restaurant;
         }
+
+
+        //Ejemplo apra testear catch exception
+        public void DarExcpetion() {
+            throw new ArgumentException("Algun texto multiloco");
+        }
     }
 }

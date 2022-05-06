@@ -64,5 +64,13 @@ namespace WebApi
 
             return NoContent();
         }
+
+
+        [HttpGet("{EjemploExcpetion}")]
+        public IActionResult GetConException()
+        {
+            this._restaurantLogic.DarExcpetion();
+            return Ok("si esto llega a la api algo hice mal");
+        }
     }
 }
