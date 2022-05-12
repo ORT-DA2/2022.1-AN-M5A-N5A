@@ -56,7 +56,7 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 
 ## Parte 2: FrontEnd - Angular 
 - Tema 8 - [SPA - Introducción a Angular](/Clases/Clase_10-SPA&Angular/Angular_y_las_SPAs.md)
-          // [Resumen de Angular](/Clases/Clase_11-ResumenAngular/Angular.md)
+          // [Resumen de Angular](/Clases/Angular.md)
 
 
 ## Aclaración
