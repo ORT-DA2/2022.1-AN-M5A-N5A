@@ -1,0 +1,20 @@
+<div>
+    <h2>
+        parent component
+    </h2>
+    <p>
+        Input value: {{inputValue | uppercase}}
+    </p>
+    <p>
+        Value: <input [(ngModel)]="inputValue" />
+    </p>
+    <p>Colors:</p>
+    <ul>
+        <li *ngFor="let color of (colors | customFilter: inputValue); index as i" (click)="showColor(color)">
+            {{i}} - {{color.name}} | {{color.hex}}
+        </li>
+    </ul>
+    <app-child [showVar]="display" (onClickOutput)="onClickEvent($event)"></app-child>
+    <!-- () => Output -->
+    <!-- [] => Input -->
+</div>

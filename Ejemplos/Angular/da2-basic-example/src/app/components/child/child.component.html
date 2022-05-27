@@ -1,0 +1,17 @@
+<div>
+    <h2>
+        child component
+    </h2>
+    <p>
+        <img [src]="imageURL" />
+    </p>
+    <p>
+        <button (click)="onClick()">No me toques!</button>
+    </p>
+    <p *ngIf="showVar; else elsePepe">
+        La variable es TRUE
+    </p>
+    <ng-template #elsePepe>
+        <p>La variable es FALSE</p>
+    </ng-template>
+</div>
