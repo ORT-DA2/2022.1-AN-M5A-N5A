@@ -16,7 +16,17 @@ export class ParentComponent {
   display = false;
 
   constructor(private service: ColorsService) {
-    this.colors = this.service.getColors()
+    this.service.getColors().subscribe(
+      (response) => {
+        this.colors = response;
+      },
+      (error) => {
+        alert(error.message)
+      },
+      () => {
+        // se ejecuta siempre, cuando entra en (response) o cuando entra en (error)
+      }
+    )
   }
 
   onClickEvent(event: string): void {
@@ -24,8 +34,8 @@ export class ParentComponent {
     this.display = !this.display
   }
 
-  showColor(color: Color){
-    alert(`Color: ${color.name} | Hex: ${color.hex}`)
+  showColor(color: Color) {
+    alert(`Color: ${color.id} | Hex: ${color.color}`)
   }
 
 }

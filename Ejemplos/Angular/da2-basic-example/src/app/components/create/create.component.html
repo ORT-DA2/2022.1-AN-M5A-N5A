@@ -1,0 +1,15 @@
+<h2>Create Color</h2>
+
+<form [formGroup]="colorForm">
+    <div>
+        <label for="id">Id</label>
+        <input formControlName="id" id="id" />
+    </div>
+    <div>
+        <label for="color">Color</label>
+        <input formControlName="color" id="color" />
+    </div>
+    <div>
+        <button (click)="onCreate()">Crear</button>
+    </div>
+</form>

@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChildComponent } from './components/child/child.component';
 import { JinkannaComponent } from './components/jinkanna/jinkanna.component';
 import { ParentComponent } from './components/parent/parent.component';
+import { ExampleGuard } from './guards/example.guard';
 import { CustomFilterPipe } from './pipes/custom-filter.pipe';
+import { CreateComponent } from './components/create/create.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +17,17 @@ import { CustomFilterPipe } from './pipes/custom-filter.pipe';
     ParentComponent,
     ChildComponent,
     JinkannaComponent,
-    CustomFilterPipe
+    CustomFilterPipe,
+    CreateComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ExampleGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
