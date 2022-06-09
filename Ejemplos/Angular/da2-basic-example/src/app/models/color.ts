@@ -1,8 +1,8 @@
 export class Color {
-    constructor(name: string, hex: string) {
-        this.name = name;
-        this.hex = hex;
+    constructor(id: number, color: string) {
+        this.id = id;
+        this.color = color;
     }
-    name: string;
-    hex: string;
+    id: number;
+    color: string;
 }

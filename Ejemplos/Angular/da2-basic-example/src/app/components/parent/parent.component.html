@@ -11,7 +11,7 @@
     <p>Colors:</p>
     <ul>
         <li *ngFor="let color of (colors | customFilter: inputValue); index as i" (click)="showColor(color)">
-            {{i}} - {{color.name}} | {{color.hex}}
+            {{i}} - {{color.id}} | {{color.color}}
         </li>
     </ul>
     <app-child [showVar]="display" (onClickOutput)="onClickEvent($event)"></app-child>
