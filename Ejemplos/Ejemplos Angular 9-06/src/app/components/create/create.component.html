@@ -1,0 +1,47 @@
+<h2>Create Color</h2>
+
+<form [formGroup]="colorForm">
+    <div>
+        <label for="id">Id</label>
+        <input formControlName="id" id="id" />
+    </div>
+    <div>
+        <label for="color">Color</label>
+        <input formControlName="color" id="color" />
+        <div *ngIf="colorForm.controls.color.invalid && colorForm.controls.color.touched">
+
+            <div *ngIf="colorForm.controls.color.errors?.['required']">
+                Debe escribir un color
+            </div>
+            <div *ngIf="colorForm.controls.color.errors?.['minlength']">
+                El color debe tener 3 o más caracteres
+            </div>
+        </div>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input formControlName="email" id="email" />
+        <div *ngIf="colorForm.controls.email.invalid && colorForm.controls.email.touched">
+
+            <div *ngIf="colorForm.controls.email.errors?.['email']">
+                Debe ingresar un correo válido
+            </div>
+        </div>
+    </div>
+    <div>
+        <button (click)="onCreate()">Crear</button>
+    </div>
+</form>
+
+<h3>Dynamic form</h3>
+<form [formGroup]="dynamicForm">
+    <div *ngFor="let parameter of parameters">
+        <label for="id">{{parameter.label}}</label>
+        <input [formControlName]="parameter.name" [id]="parameter.name" />
+    </div>
+    <button (click)="onClick()">Show values</button>
+</form>
+
+<div *ngIf="showResults">
+    <p *ngFor="let parameter of parameters">{{parameter.label}}: {{dynamicForm.controls[parameter.name].value}}</p>
+</div>
