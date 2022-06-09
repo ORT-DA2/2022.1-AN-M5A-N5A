@@ -1,0 +1,7 @@
+<h1>
+  DA2-BASIC-EXAMPLE <span *ngIf="isLoading()">LOADING...</span>
+</h1>
+<button routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}" routerLink="/">Home</button>
+<button routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}" routerLink="/jinkanna">Jinkanna</button>
+<button routerLinkActive="activebutton" [routerLinkActiveOptions]="{exact: true}" routerLink="/create">Create</button>
+<router-outlet></router-outlet>
