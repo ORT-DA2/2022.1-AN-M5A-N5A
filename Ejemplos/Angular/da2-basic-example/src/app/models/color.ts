@@ -3,6 +3,6 @@ export class Color {
         this.id = id;
         this.color = color;
     }
-    id: number;
-    color: string;
+    public id: number;
+    public color: string;
 }

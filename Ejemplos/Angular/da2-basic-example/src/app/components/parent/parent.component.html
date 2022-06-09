@@ -8,13 +8,13 @@
     <p>
         Value: <input [(ngModel)]="inputValue" />
     </p>
-    <p>Colors:</p>
+    <p>
+        Colors:
+    </p>
     <ul>
-        <li *ngFor="let color of (colors | customFilter: inputValue); index as i" (click)="showColor(color)">
-            {{i}} - {{color.id}} | {{color.color}}
+        <li *ngFor="let color of colors | customFilter: inputValue" (click)="onClickColor(color.id)">
+            {{color.color}}
         </li>
     </ul>
-    <app-child [showVar]="display" (onClickOutput)="onClickEvent($event)"></app-child>
-    <!-- () => Output -->
-    <!-- [] => Input -->
+    <app-child [condition]="condition" (onClick)="onClick($event)"></app-child>
 </div>

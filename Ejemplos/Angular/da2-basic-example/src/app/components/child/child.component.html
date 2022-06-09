@@ -5,13 +5,14 @@
     <p>
         <img [src]="imageURL" />
     </p>
-    <p>
-        <button (click)="onClick()">No me toques!</button>
-    </p>
-    <p *ngIf="showVar; else elsePepe">
+    <p *ngIf="condition; else elsePepe">
         La variable es TRUE
     </p>
     <ng-template #elsePepe>
         <p>La variable es FALSE</p>
     </ng-template>
+    <p>
+        <button (click)="onClickButton()">No me toques!</button>
+    </p>
+    <button (click)="goJinkanna()">Go to Jinkanna</button>
 </div>

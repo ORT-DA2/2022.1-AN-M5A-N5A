@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Color } from '../models/color';
+import { Color } from '../models/Color';
 
 @Pipe({
   name: 'customFilter'
@@ -7,8 +7,8 @@ import { Color } from '../models/color';
 export class CustomFilterPipe implements PipeTransform {
 
   transform(list: Array<Color>, filter: string): Array<Color> {
-    return list.filter((c) => 
-      c.color.toLocaleLowerCase().includes(filter.toLocaleLowerCase())
+    return list.filter((i) =>
+      i.color.toLowerCase().includes(filter.toLowerCase())
     );
   }
 

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { Color } from 'src/app/models/Color';
 import { ColorsService } from 'src/app/services/colors.service';
-import { Color } from '../../models/color';
 
 @Component({
   selector: 'app-parent',
@@ -11,31 +12,31 @@ export class ParentComponent {
 
   inputValue = "";
 
-  colors: Array<Color> = []
+  colors: Array<Color> = [];
 
-  display = false;
+  condition = true
 
-  constructor(private service: ColorsService) {
-    this.service.getColors().subscribe(
+  constructor(colorsService: ColorsService, private router: Router) {
+    colorsService.getColors().subscribe(
       (response) => {
         this.colors = response;
       },
       (error) => {
-        alert(error.message)
+        alert(error.message);
       },
       () => {
-        // se ejecuta siempre, cuando entra en (response) o cuando entra en (error)
+
       }
     )
   }
 
-  onClickEvent(event: string): void {
+  onClick(event: string) {
     alert(event)
-    this.display = !this.display
+    this.condition = !this.condition;
   }
 
-  showColor(color: Color) {
-    alert(`Color: ${color.id} | Hex: ${color.color}`)
+  onClickColor(id: number) {
+    this.router.navigate(['/jinkanna', id])
   }
 
 }

@@ -11,6 +11,14 @@ input {
     border: 3px solid orange;
 }
 
-p button{
+p button {
     font-size: 22px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    opacity: 0.5;
 }

@@ -7,10 +7,10 @@ import { ExampleGuard } from './guards/example.guard';
 
 const routes: Routes = [
   { path: "", component: ParentComponent },
-  { path: "colors/:id", component: JinkannaComponent, canActivate: [ExampleGuard] },
-  { path: "colors", component: JinkannaComponent },
+  { path: "jinkanna/:id", component: JinkannaComponent, canActivate: [ExampleGuard] },
+  { path: "jinkanna", component: JinkannaComponent },
   { path: "create", component: CreateComponent },
-  { path: "jinkanna", redirectTo: "/colors" },
+  { path: "redirect", redirectTo: "/jinkanna" },
   { path: "**", component: ParentComponent }
 ];
 

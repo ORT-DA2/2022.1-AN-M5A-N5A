@@ -6,17 +6,14 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ExampleGuard implements CanActivate {
-
   constructor(private router: Router) { }
-
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
-
     const id = route.params.id as number;
     if (isNaN(id)) {
-      alert("Flaco tenes que pasarme un numero.")
-      this.router.navigateByUrl('/')
+      alert("El id esperado debe ser un número.")
+      this.router.navigateByUrl("/")
       return false;
     }
     return true;

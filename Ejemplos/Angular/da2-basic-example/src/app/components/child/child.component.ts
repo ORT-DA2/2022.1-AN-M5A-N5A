@@ -1,4 +1,5 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-child',
@@ -9,13 +10,17 @@ export class ChildComponent {
 
   imageURL = "https://www.google.com.uy/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
 
-  constructor() { }
+  @Input() condition = false;
+  @Output() onClick = new EventEmitter<string>()
 
-  @Input() showVar = false;
-  @Output() onClickOutput = new EventEmitter<string>()
+  onClickButton(){
+    this.onClick.emit("Te dije que no me toques.")
+  }
 
-  onClick() {
-    this.onClickOutput.emit("Te dije que no me toques");
+  constructor(private router: Router) { }
+
+  goJinkanna(){
+    this.router.navigateByUrl("/jinkanna/vengo-de-home")
   }
 
 }

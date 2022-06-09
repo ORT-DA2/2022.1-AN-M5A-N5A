@@ -1,24 +1,25 @@
 import { NgModule } from '@angular/core';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ChildComponent } from './components/child/child.component';
-import { JinkannaComponent } from './components/jinkanna/jinkanna.component';
 import { ParentComponent } from './components/parent/parent.component';
-import { ExampleGuard } from './guards/example.guard';
+import { ChildComponent } from './components/child/child.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CustomFilterPipe } from './pipes/custom-filter.pipe';
+import { JinkannaComponent } from './components/jinkanna/jinkanna.component';
 import { CreateComponent } from './components/create/create.component';
+import { LoaderInterceptor } from './interceptors/loader.interceptor';
+import { TokenInterceptor } from './interceptors/token.interceptor';
 
 @NgModule({
   declarations: [
     AppComponent,
     ParentComponent,
     ChildComponent,
-    JinkannaComponent,
     CustomFilterPipe,
-    CreateComponent
+    JinkannaComponent,
+    CreateComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,16 @@ import { CreateComponent } from './components/create/create.component';
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [ExampleGuard],
+  providers: [{
+    provide: HTTP_INTERCEPTORS,
+    useClass: LoaderInterceptor,
+    multi: true
+  },
+  {
+    provide: HTTP_INTERCEPTORS,
+    useClass: TokenInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
